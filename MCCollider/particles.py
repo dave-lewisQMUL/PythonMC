@@ -21,8 +21,8 @@ class particle():
     def set_pdg_id(self,new_id):
         self.pdg_id=new_id
 
-    def set_momentum(self,new_mom):
-        self.momentum = new_mom
+    def set_momentum(self,energy):
+        self.momentum = sqrt(energy**2 + self.mass**2)
 
     def set_energy(self,new_energy):
         self.energy = new_energy
@@ -119,7 +119,7 @@ class wplus(boson):
         self.set_charge(3)
         self.set_mass(80.39)
         self.set_energy(energy)
-        self.set_momentum(sqrt(self.energy^2 + self.mass^2))
+        self.set_momentum(energy)
 
 class wminus(boson):
     def __init__(self,energy):
@@ -128,7 +128,7 @@ class wminus(boson):
         self.set_charge(-3)
         self.set_mass(80.39)
         self.set_energy(energy)
-        self.set_momentum(sqrt(self.energy^2 + self.mass^2))
+        self.set_momentum(energy)
 
 class z_boson(boson):
     def __init__(self,energy):
@@ -136,7 +136,7 @@ class z_boson(boson):
         self.set_pdg_id(23)
         self.set_mass(91.19)
         self.set_energy(energy)
-        self.set_momentum(sqrt(self.energy^2 + self.mass^2))
+        self.set_momentum(energy)
 
 class up_q(quark):
     def __init__(self,energy):
@@ -216,6 +216,7 @@ class bottom_q(quark):
     def __init__(self,energy):
         quark.__init__(self)
         self.set_charge(-1)
+        self.set_mass(4.2) #MS scheme
         self.set_energy(energy)
         self.set_momentum(energy)
         self.set_pdg_id(5)
@@ -224,6 +225,7 @@ class b_bar(quark):
     def __init__(self,energy):
         quark.__init__(self)
         self.set_charge(1)
+        self.set_mass(4.2)
         self.set_energy(energy)
         self.set_momentum(energy)
         self.set_pdg_id(-5)
@@ -232,6 +234,7 @@ class top_q(quark):
     def __init__(self,energy):
         quark.__init__(self)
         self.set_charge(2)
+        self.set_mass(173.07)
         self.set_energy(energy)
         self.set_momentum(energy)
         self.set_pdg_id(6)
@@ -240,6 +243,7 @@ class t_bar(quark):
     def __init__(self,energy):
         quark.__init__(self)
         self.set_charge(-2)
+        self.set_mass(173.07)
         self.set_energy(energy)
         self.set_momentum(energy)
         self.set_pdg_id(-6)
@@ -292,5 +296,3 @@ class antitau(lepton):
         self.set_energy(energy)
         self.set_momentum(energy)
         self.set_pdg_id(-15)
-
-

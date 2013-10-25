@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main_file.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main_file.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main_file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.2122588" vertical-offset="0" max-vertical-offset="881">
+            <state line="66" column="13" selection-start="1831" selection-end="1831" vertical-scroll-proportion="0.0" vertical-offset="343" max-vertical-offset="1224">
               <folding>
                 <element signature="e#21#47#0" expanded="true" />
               </folding>
@@ -34,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="particles.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="particles.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/particles.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="33" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5134">
+            <state line="19" column="0" selection-start="496" selection-end="496" vertical-scroll-proportion="0.36662883" vertical-offset="0" max-vertical-offset="5168">
               <folding />
             </state>
           </provider>
@@ -118,11 +118,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="Errors" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="Errors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -344,6 +345,22 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main_file.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="289">
+          <folding>
+            <element signature="e#21#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/particles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="33" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="5134">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_file.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="24" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="289">
           <folding>
             <element signature="e#21#47#0" expanded="true" />
@@ -358,19 +375,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/particles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="33" selection-start="2467" selection-end="2467" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5134">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.2122588" vertical-offset="0" max-vertical-offset="881">
+        <state line="66" column="13" selection-start="1831" selection-end="1831" vertical-scroll-proportion="0.0" vertical-offset="343" max-vertical-offset="1224">
           <folding>
             <element signature="e#21#47#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/particles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="496" selection-end="496" vertical-scroll-proportion="0.36662883" vertical-offset="0" max-vertical-offset="5168">
+          <folding />
         </state>
       </provider>
     </entry>
